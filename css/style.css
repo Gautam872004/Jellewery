@@ -1,0 +1,998 @@
+/* Header */
+body
+{
+    overflow-x: hidden;
+}
+.header
+{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.freefr
+{
+    color: #222020;
+    font-size: 15px;
+    /* padding-left: 50px; */
+    line-height: 27px;
+}
+::placeholder
+{
+    padding-left: 25px;
+    font-size: 15px;
+    color: #222020;
+}
+.searchcontrol
+{
+    padding-left: 250px;
+}
+.slogo
+{
+    position: absolute;   
+}
+.troley
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 2px;
+}
+.search {
+    border-radius: 19px;
+    padding: 0px;
+    top: 16.10px;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    background-position: 190px;
+    padding-right: 45px; /* adjust to fit the size of your icon */
+  }
+  .cart-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cart-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/troley.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #8B827D;
+    color: #3F3C3C;
+    border-radius: 50%;
+  }
+
+
+  
+/* backcolor */
+.backcolor
+{
+    background-color: black;
+}
+
+
+/* SUB Header */
+/* .navbar
+{
+    padding-left: 200px;
+} */
+
+.menu
+{
+font-size: 20px;
+line-height: 34px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.logo
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 45px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.nav-link
+{
+    color: #fff;
+    position: relative;
+    padding-right: 100px !important;
+}
+.nav-link:hover
+{
+    color: #fff;
+}
+
+/* GOld Collection */
+.goldheart
+{
+    background: #0A0F0B;
+    border-radius: 20px;   
+    padding-top:45px;
+    border: 2px white solid;
+    width: 250px;
+    padding-left: 27px;
+    margin-top: 107px;
+}
+.heartgold
+{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 50px;
+}
+.dimondring
+{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 50px;
+}
+.gold
+{
+    border-bottom: 2px white solid;
+    color: #fff;
+    font-size: 15px;
+    padding-top: 33px;
+    font-size: 22px;
+    width:36%;
+}
+.dimond
+{
+    border-bottom: 2px white solid;
+    color: #fff;
+    font-size: 15px;
+    padding-top: 33px;
+    font-size: 22px;
+    width:35%;
+}
+.product
+{
+    color: #877070;
+    font-size: 22px;
+    padding-top: 33px;
+    padding-bottom: 20px;
+}
+.goldpatten
+{
+    margin-left: 150px;
+    margin-right: 44px;
+    margin-top: 163px;
+}
+.goldring,.goldnecklaces
+{
+    margin-right: 44px;
+    margin-top: 163px;
+}
+.goldearing
+{
+    margin-top: 163px;
+}
+.box
+{
+    padding: 20px;
+    margin: 100px;
+    background: #1C1B19;
+    border-radius: 30px
+}
+.services
+{
+    margin: 20px;
+    margin-top: -87px;
+    margin-left: 45px;
+}
+.gold_desigine
+{
+    padding-bottom: 20px;
+}
+
+
+/* Creating Jewellery */
+.sed
+{
+    display: block;
+    background: #1C1B19;
+    border: 1px solid #FFFFFF;
+    width: 297px;
+    height: 359px;
+    margin-top: 126px;
+    margin-left: 55px;
+}
+.ringdimond
+{
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+.newr
+{
+    font-size: 36px;
+    line-height: 45px;
+}
+.newr,.ipsum
+{
+    text-align: center;
+    padding-top: 25px;
+    color: #fff;
+}
+.ipsum
+{
+    line-height: 20px;
+    padding-bottom: 56px;
+}
+.modelshowring
+{
+    margin-top: 200px;
+    position: absolute;
+    width: 389px;
+    height: 584px;
+}
+.minilist
+{  
+    width: 479px;
+    height: 342px;
+    left: 273px;
+    padding-top: 35px;
+    margin-left: 55px;
+}
+.dimandnecklace
+{
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Weeding
+{
+    display: block;
+    background: #1C1B19;
+    border: 1px solid #FFFFFF;
+    width: 297px;
+    margin-top: 120px;
+}
+.collection
+{
+    padding-left: 66px;
+    font-size: 36px; 
+    text-align: center;
+    line-height: 45px;
+    padding-top: 25px;
+    color: #fff;    
+}
+.ideal
+{
+    width: 747px;
+    padding-top: 367px;
+    height: 1100px;
+}
+.shadowimg
+{
+    padding-top: 390px;
+    height: 1000px;
+    margin-left: 110px;
+}
+.about-title
+{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39.01px;
+    color: #696969;
+}
+.crefting-heading
+{
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    padding-top: 30px;
+}
+.about-information
+{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    padding-top: 25px;
+}
+.bgimage
+{
+    margin-top: 215px;
+    background-image:url("../img/boygirl.png");
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.about-section
+{
+    padding-top: 100px;
+    padding-left: 55px;
+}
+.know-more-button
+{
+    background-color: #D9D9D9;
+    color: #090909;
+    width: 29%;
+    padding: 9px 0px 11px 3px;
+    border-radius: 16px;
+    font-size: 36px;
+    line-height: 43.88px;
+}
+
+/* Tranding Collection */
+.tranding
+{
+    margin-top: 185px;
+}
+.star
+{    
+    padding-bottom: 10px;
+}
+.content,.jcollection
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top:50px;
+}
+.OFFER
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 40px;
+    color: #696969;
+    text-align: center;
+}
+.tcollection
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+color: #FBFBFB;
+}
+.ouroffer
+{
+    padding-top: 40px;
+}
+.neck
+{
+    left: 25.89%;
+    right: 25.89%;
+    top: 9.69%;
+    bottom: 35.2%;
+    padding-left: 40px;
+}
+.dring
+{
+    left: 25.89%;
+    right: 25.89%;
+    top: 9.69%;
+    bottom: 35.2%;
+    padding-left: 40px;
+    padding-top: 19px;
+}
+.dearring
+{
+    left: 25.89%;
+    right: 25.89%;
+    top: 9.69%;
+    bottom: 35.2%;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.gbraclate1
+{
+    left: 25.89%;
+    right: 25.89%;
+    top: 9.69%;
+    bottom: 35.2%;
+    padding-left: 40px;
+    padding-top: 12px;
+}
+.gbraclate2
+{
+    left: 25.89%;
+    right: 25.89%;
+    top: 9.69%;
+    bottom: 35.2%;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.gbraclate3
+{
+    left: 25.89%;
+    right: 25.89%;
+    top: 9.69%;
+    bottom: 35.2%;
+    padding-left: 40px;
+    margin-top: -8px;
+}
+.gring
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 13px;
+    color: #FFFFFF;
+}
+.singledimondring
+{
+    background-color:#0A0F0B;
+    border: 2px white solid;
+    border-radius: 20px;
+}
+.goldoption
+{
+    padding-top: 52px;
+    padding-bottom: 117px;
+}
+.ringcard
+{
+    border: 2px solid white ;
+    border-radius:20px;
+}
+.sdimond
+{
+    width: 300px;
+    height: 250px;
+    left: 199px;
+    top: 3227px;
+    border: 2px black solid;
+    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: black;
+}
+.Sdimond
+{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #0A0F0B;
+    padding-top: 15px;
+    padding-left: 17px;
+}
+.hoop
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.price
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    padding-top: 15px;
+    text-transform: capitalize;
+
+    color: #696969;
+}
+.tranding
+{
+    background: #1C1B19;
+    border-radius: 118px;
+}
+
+/* on sale product */
+.onsale
+{
+    background-color:#0A0F0B
+}
+.Ddimond
+{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #1C1B19;
+    padding-top: 15px;
+    padding-left: 17px;
+}
+
+
+/* model Advertise */
+.model4,.model3,.model2,.model1
+{
+    width: 360px;
+    /* height: auto; */
+    height: 640px;
+}
+
+
+/* Our Vaslues */
+.values
+{
+    background: #0A0F0B;
+    margin-top: 216.87px;
+}
+.ourrules
+{
+    background: #1C1B19;
+    position: relative;
+    display: contents;
+    margin-right: -190px;
+    z-index: 1;
+}
+.our_rules
+{
+    padding-top: 113.1px;
+    text-align: center;
+    color: #696969;
+}
+span
+{
+    font-size: 35px;
+    line-height: 43px;
+    color: #fff;
+}
+.azzana
+{
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    /* or 24px */
+    padding-top: 27.59px;
+    text-align: center;
+
+    color: #9F9A9A;
+}
+.never
+{
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    /* or 24px */
+    padding-top: 27.59px;
+    text-align: center;
+    padding-bottom: 113.1px;
+    color: #9F9A9A;
+}
+.smilegirl
+{
+    /* width: 747.5px; */
+    height: 600px;
+    /* margin-top: -60px; */
+}
+
+
+/* NEW COLLECTION */
+.platinum
+{
+    border: 2px white solid;
+    border-radius: 20px;
+}
+.new
+{
+    background: #090909;
+    border-radius: 118px;
+}
+.ringplatinum
+{
+    width: 410px;
+    border-radius: 20px;
+}
+.pring
+{
+    background: #1C1B19;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: -16px;
+}
+.singledimond_ring
+{
+    padding-top: 20px;
+    width: 93px;
+    height: 93px;
+    margin-left: 150px;
+}
+.rings
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    padding-top: 16px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #FFFFFF;
+}
+.ante
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 21px;
+    padding-bottom: 46px;
+    color: #696969;
+}
+
+
+/*  the best celler */
+.bestseller
+{
+    background: #0A0F0B;
+}
+.free
+{
+    padding-top: 155px;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 56.57px;
+}
+.the
+{
+    padding-top: 55px;
+    font-size: 41px;
+    color: #fff;
+    padding-left: 102.8px;
+}
+.affordable
+{
+    padding-left: 102.8px;
+    padding-top: 20.85px;
+    font-size: 14px;
+    color: #696969;
+}
+.sellerview
+{
+    padding-left: 102.8px;
+    padding-top: 31.7px;
+    color: #FFFFFF;
+    font-size: 22px;
+    padding-bottom: 59px;
+}
+.smilegirlearing
+{
+    width: 759px;
+    height: 579px;
+}
+.model4,.model5,.legbraclate,.model6
+{
+    width: 380px;
+    height: 579px;
+}
+.model5,.model6
+{
+    margin-left: -12px;
+}
+.modelgirls
+{    
+    margin-left: -12.2px;
+}
+
+/* Success Stories */
+.sucess
+{
+    background: #0A0F0B;
+}
+.stories
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 57px;
+    line-height: 89px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+.look
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 17px;
+    color: #696969;
+    text-align: center;
+}
+.sucess-stories
+{
+    padding: 50px;
+}
+.some
+{
+    padding-top: 113px;
+}
+
+
+/* footer */
+.footer
+{
+    background: #1C1B19;
+}
+.dummy
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 63px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding-top: 112px;
+    color: #FFFFFF;
+}
+.standard
+{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 64.63px;
+    /* or 150% */
+    color: #FDFDFD;
+}
+.social
+{
+    padding-top: 35.27px;
+    /*  */
+}
+.socialmedia
+{
+    width: 45.77px;
+    height: 45.77px;
+}
+.ever
+{
+    padding-left: 50px
+}
+.Menu
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 15px;
+    color: #FFFFFF;
+    padding-top: 226px;
+}
+.lowermenu
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 46px;
+    /* or 209% */
+    color: #696969;
+}
+.hesitate
+{
+    padding-left: 25px;
+}
+
+/* AZZANI */
+.azzana
+{
+    background: #0A0F0B;
+}
+.mini
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    padding-top: 35px;
+    padding-bottom: 31.96px;
+    color: #FFFFFF;
+}
+.list
+{
+    margin-top: 25px;
+}
+
+
+
+
+/* Collection-Page */
+
+.collectionpage,.collectionheader
+{
+    background: #0A0F0B;
+}
+.goldcz
+{
+    width: 620px;
+    height: 625px;
+}
+.home,.hnecklace
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    
+    font-variant: small-caps;
+    padding: 10px;
+    color: #696969;
+}
+.forwardslace
+{
+    color: #696969;
+    transform: rotate(59.74deg);
+}
+.cokerset
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 78px;
+    /* identical to box height */
+    text-transform: capitalize;
+    border-bottom: 4px solid #FFFFFF;
+    width: 38px;
+    color: #FFFFFF;
+}
+.rate
+{
+    padding-top: 10.67px;
+}
+.review
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 29px;
+    text-transform: capitalize;
+
+    color: #696969;
+}
+.price
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 78px;
+    /* identical to box height */
+    padding-top: 10.34px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+.inclusive
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #696969;
+}
+.Breakup
+{
+    color: #FBFBFB ;
+    font-size: 12px;
+}
+.Availability
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 39px;
+    /* identical to box height */
+    padding-top: 10px;
+    text-transform: capitalize;
+
+    color: #696969;
+}
+.Stock
+{
+    color: #FBFBFB ;
+    font-size: 15px;
+}
+.bottomslace
+{
+    width: 80%;
+}
+.labore
+{
+    color: #696969;
+    font-size: 15px;
+}
+.Material
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+    /* identical to box height */
+    padding-top: 13px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+.materialtype
+{
+    padding-top: 13px;
+}
+.materialuse
+{
+    margin-left: 70px;
+    background-color:#696969;
+    padding: 6px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.quantity
+{
+    padding-top: 56px;
+}
+.one
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 78px;
+    text-transform: capitalize;
+    background-color: #696969;
+    text-align: center;
+    color: #FFFFFF;
+}
